@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, Space_Grotesk } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { RootLayoutPage } from "@/components/layout/RootLayout";
 import LoadingRoute from "@/components/loadingRoute";
