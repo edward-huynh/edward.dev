@@ -4,24 +4,57 @@ import { ProjectsData } from "@/data";
 import Image from "next/image";
 import { IProject } from "@/model/projects";
 import { Carousel3D } from "../Carousel3D";
+import { Carousel3DGlobe } from "../Carousel3DGlobe";
 import { AuroraText } from "../magicui/aurora-text";
+import { motion } from "framer-motion";
 
-export const ListProjects = ({ type }: { type: "GRID" | "CAROUSEL" }) => {
+export const ListProjects = ({
+  type,
+}: {
+  type: "GRID" | "CAROUSEL" | "GLOBE";
+}) => {
   return (
-    <section className="w-full flex flex-col items-center justify-center ">
-      <h1 className="text-4xl font-bold tracking-tighter ">
+    <section className="w-full flex flex-col items-center justify-center">
+      <h1 className="text-4xl font-bold tracking-tighter mb-8">
         <AuroraText>PROJECTS</AuroraText>
       </h1>
-      <div className=" w-full  gap-5  ">
+      <div className="w-full">
         {type === "GRID" && (
-          <>
-            {ProjectsData.slice(0, 4).map((item, index) => (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
+            {ProjectsData.slice(0, 8).map((item, index) => (
               <ProjectItem key={index} item={item} />
             ))}
-          </>
+          </motion.div>
         )}
         {type === "CAROUSEL" && (
-          <Carousel3D items={ProjectsData} autoPlay={true} interval={4000} />
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Carousel3D items={ProjectsData} autoPlay={true} interval={4000} />
+          </motion.div>
+        )}
+        {type === "GLOBE" && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Carousel3DGlobe
+              items={ProjectsData}
+              autoPlay={true}
+              interval={4000}
+            />
+          </motion.div>
         )}
       </div>
     </section>

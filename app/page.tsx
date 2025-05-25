@@ -4,6 +4,7 @@ import { CTAProfile } from "@/components/CTAProfile";
 import { ListProjects } from "@/components/projects/ListProjects";
 import { Stacking } from "@/components/Stacking";
 import { Experience } from "@/components/Experience";
+import { ReviewInfo } from "@/components/ReviewInfo";
 export default function Home() {
   return (
     <section className="size-full p-5 lg:p-20">
@@ -24,6 +25,7 @@ export default function Home() {
         {/* Project */}
         <ListProjects type="CAROUSEL" />
         {/* CTA */}
+        <ReviewInfo />
       </div>
     </section>
   );
