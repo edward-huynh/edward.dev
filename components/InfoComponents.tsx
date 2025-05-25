@@ -36,7 +36,7 @@ const socials = [
 ];
 export const InfoComponents = () => {
   return (
-    <div className="w-full flex flex-col gap-3">
+    <div className="w-full flex flex-col gap-3 lg:gap-0">
       <div
         id="info"
         className=" min-h-[250px] w-full overflow-hidden rounded-lg  z-20 relative -mt-28 flex flex-col lg:flex-row justify-between items-center  lg:pl-10 gap-2 lg:gap-10"
@@ -61,7 +61,7 @@ export const InfoComponents = () => {
                   return (
                     <div
                       key={index}
-                      className="flex gap-1 items-center h-fit bg-primary/20 py-1 px-3 text-xs font-semibold rounded-full "
+                      className="flex gap-1 items-center h-fit bg-primary/20 py-1 px-3 text-sm font-semibold rounded-full "
                     >
                       <item.icon className="size-4" />
                       {item.name}
@@ -73,7 +73,7 @@ export const InfoComponents = () => {
                     key={index}
                     href={item.href}
                     target="_blank"
-                    className="flex gap-1 items-center bg-primary/20 py-1 h-fit px-3 text-xs font-semibold rounded-full cursor-pointer"
+                    className="flex gap-1 items-center bg-primary/20 py-1 h-fit px-3 text-sm font-semibold rounded-full cursor-pointer"
                   >
                     <item.icon className="size-4" />
                     {item.name}
@@ -89,7 +89,7 @@ export const InfoComponents = () => {
         </div>
       </div>
       <TypingAnimation
-        className="font-medium text-base transition-all duration-200 min-h-[60px]"
+        className="font-medium text-lg transition-all duration-200 min-h-[60px]"
         duration={10}
       >
         Hello, my name is Huỳnh Tấn Phát. I am currently working as a Front-end
