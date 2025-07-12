@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Edward Portfolio
 
-## Getting Started
+## Giới thiệu
 
-First, run the development server:
+Đây là dự án portfolio cá nhân của Edward, một Front End Developer, được xây dựng bằng Next.js và các công nghệ hiện đại. Portfolio này trình bày thông tin cá nhân, kỹ năng, kinh nghiệm làm việc và các dự án đã thực hiện.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Công nghệ sử dụng
+
+- **Framework**: Next.js 15.2.4
+- **UI Libraries**: 
+  - Tailwind CSS
+  - Radix UI
+  - Shadcn UI
+  - Framer Motion
+  - Embla Carousel
+  - Swiper
+- **Ngôn ngữ**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animation**: Framer Motion
+
+## Tính năng
+
+- **Trang chủ** với banner và thông tin cá nhân
+- **Phần kỹ năng** hiển thị các công nghệ thành thạo
+- **Phần kinh nghiệm** hiển thị quá trình làm việc
+- **Phần dự án** hiển thị các dự án đã thực hiện với carousel 3D
+- **Tải CV** trực tiếp từ trang web
+- **Hiệu ứng UI** đẹp mắt với các animation từ thư viện magicui
+
+## Cấu trúc dự án
+
+```
+├── app/                  # Next.js app directory
+│   ├── carousel3d-demo/  # Demo cho carousel 3D
+│   ├── projects/         # Trang dự án
+│   ├── page.tsx          # Trang chủ
+│   └── layout.tsx        # Layout chính
+├── assets/              # Tài nguyên (hình ảnh, icons)
+├── components/          # Các component React
+│   ├── Banner.tsx       # Banner chính
+│   ├── Experience.tsx   # Hiển thị kinh nghiệm
+│   ├── InfoComponents.tsx # Thông tin cá nhân
+│   ├── Stacking.tsx     # Hiển thị kỹ năng
+│   ├── magicui/         # Các component UI với hiệu ứng đặc biệt
+│   ├── projects/        # Components liên quan đến dự án
+│   └── ui/              # Các component UI cơ bản
+├── data/                # Dữ liệu (projects, experience)
+├── hooks/               # Custom hooks
+├── lib/                 # Utility functions
+├── model/               # Type definitions
+└── public/              # Static files
+    └── work/            # Hình ảnh dự án
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Các dự án nổi bật
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **King Coffee Ecommerce**: Website chính thức của King Coffee, giới thiệu sản phẩm cao cấp, văn hóa cà phê Việt Nam và các tùy chọn mua sắm toàn cầu.
+- **Lê Hoàng Diệp Thảo TNI**: Trang web giới thiệu hành trình của doanh nhân Lê Hoàng Diệp Thảo, tầm nhìn và nỗ lực nâng cao ngành cà phê Việt Nam.
+- **Distribution King Coffee**: Tập trung vào cơ hội nhượng quyền và hợp tác với King Coffee, cung cấp mô hình kinh doanh và hỗ trợ mở rộng toàn cầu.
+- **Novadreams Tickets**: Nền tảng đặt vé cho các trải nghiệm NovaDreams, cung cấp dịch vụ mua vé liền mạch cho các hoạt động giải trí, giải trí và văn hóa.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Cài đặt và chạy dự án
 
-## Learn More
+### Yêu cầu
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js (phiên bản mới nhất)
+- npm hoặc pnpm
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Các bước cài đặt
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone repository
+```bash
+git clone <repository-url>
+cd edward-portfolio
+```
 
-## Deploy on Vercel
+2. Cài đặt dependencies
+```bash
+pnpm install
+# hoặc
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Chạy môi trường development
+```bash
+pnpm dev
+# hoặc
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Build cho production
+```bash
+pnpm build
+# hoặc
+npm run build
+```
+
+5. Chạy phiên bản production
+```bash
+pnpm start
+# hoặc
+npm start
+```
+
+Dự án sẽ chạy tại http://localhost:3005
+
+## Liên hệ
+
+- Email: phatht2911@gmail.com
+- GitHub: [Marious-11](https://github.com/Marious-11)
+- Điện thoại: +84 916 215 180
+- Địa chỉ: Quận 8, TP.HCM

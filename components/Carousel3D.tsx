@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -140,7 +140,7 @@ export const Carousel3D = ({
                       />
                     </div>
                     <div className="p-4 flex flex-col flex-grow gap-2">
-                      <h3 className="text-lg font-bold truncate">
+                      <h3 className="text-lg font-bold truncate text-secondary">
                         {item.name}
                       </h3>
 
@@ -148,13 +148,13 @@ export const Carousel3D = ({
                         {item.category.map((category, index) => (
                           <span
                             key={index}
-                            className="text-[10px] bg-primary/50 px-2 py-1 rounded-full font-medium"
+                            className="text-[10px] bg-primary/50 px-2 py-1 rounded-full font-medium text-secondary"
                           >
                             {category}
                           </span>
                         ))}
                       </div>
-                      <p className="text-sm line-clamp-4">{item.description}</p>
+                      <p className="text-sm line-clamp-4 text-secondary">{item.description}</p>
                     </div>
                   </Link>
                 </motion.div>
@@ -167,14 +167,14 @@ export const Carousel3D = ({
       {/* Navigation buttons */}
       <button
         onClick={handlePrev}
-        className="absolute left-4 top-1/2 cursor-pointer -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 shadow-md z-20"
+        className="absolute left-4 top-1/2 cursor-pointer -translate-y-1/2 bg-secondary/70 hover:bg-secondary rounded-full p-2 shadow-md z-20"
         aria-label="Previous"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
       <button
         onClick={handleNext}
-        className="absolute right-4 top-1/2 cursor-pointer -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 shadow-md z-20"
+        className="absolute right-4 top-1/2 cursor-pointer -translate-y-1/2 bg-secondary/70 hover:bg-secondary rounded-full p-2 shadow-md z-20"
         aria-label="Next"
       >
         <ChevronRight className="w-6 h-6" />

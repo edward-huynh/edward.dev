@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ListProjects } from "@/components/projects/ListProjects";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { Grid3x3, Globe } from "lucide-react";
 import { CubeIcon } from "@radix-ui/react-icons";

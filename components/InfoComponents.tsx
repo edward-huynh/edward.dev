@@ -14,13 +14,13 @@ const socials = [
   },
   {
     name: "Github",
-    href: "https://github.com/Marious-11",
+    href: "https://github.com/Edward-Space",
     icon: GitHubLogoIcon,
   },
 
   {
-    name: "phatht2911@gmail.com",
-    href: "https://github.com/hnhnphat",
+    name: "phat2911@gmail.com",
+    href: "mailto:phat2911@gmail.com",
     icon: MailIcon,
   },
   {
@@ -30,7 +30,7 @@ const socials = [
   },
   {
     name: "+84 916 215 180",
-    href: "#",
+    href: "tel:+84916215180",
     icon: PhoneCall,
   },
 ];

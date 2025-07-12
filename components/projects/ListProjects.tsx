@@ -6,7 +6,7 @@ import { IProject } from "@/model/projects";
 import { Carousel3D } from "../Carousel3D";
 import { Carousel3DGlobe } from "../Carousel3DGlobe";
 import { AuroraText } from "../magicui/aurora-text";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 export const ListProjects = ({
   type,
