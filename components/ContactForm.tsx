@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Send, Mail, User, MessageSquare } from "lucide-react";
 import { AuroraText } from "./magicui/aurora-text";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";

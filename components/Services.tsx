@@ -2,7 +2,7 @@
 
 import { Code, Palette, Zap, Search } from "lucide-react";
 import { AuroraText } from "./magicui/aurora-text";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 const services = [
   {

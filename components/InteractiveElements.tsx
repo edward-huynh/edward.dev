@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Moon, Sun, ArrowUp, Github, Linkedin, Mail } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 
 export const ThemeToggle = () => {
   const [isDark, setIsDark] = useState(false);
