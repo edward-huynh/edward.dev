@@ -35,7 +35,6 @@ const LoadingRoute = () => {
       exit={{ opacity: 0 }}
       transition={{
         duration: 1,
-        minDuration: 1, // Ensure animation lasts at least 1 second
       }}
       className="fixed inset-0 z-50 flex items-center justify-center bg-primary"
     ></motion.div>
