@@ -33,7 +33,7 @@ export const FloatRoute = () => {
           <Tooltip>
             <TooltipTrigger>
               <Link
-                className="size-12 text-primary bg-white rounded-full border border-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center"
+                className="size-12 text-primary bg-secondary/20 backdrop-blur-lg rounded-full border border-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center"
                 href={e.href}
               >
                 {e.icon}

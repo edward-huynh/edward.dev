@@ -93,7 +93,7 @@ export const InfoComponents = () => {
         duration={10}
       >
         Hello, my name is Huỳnh Tấn Phát. I am currently working as a Front-end
-        Developer with over 1.5 years of experience in user interface
+        Developer with over 2 years of experience in user interface
         development. I am eager to contribute and further develop my skills in a
         professional environment—one that fosters creativity and innovation to
         deliver effective and sustainable software solutions.

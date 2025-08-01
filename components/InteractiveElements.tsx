@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { Moon, Sun, ArrowUp, Github, Linkedin, Mail } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Button } from "./ui/button";
 
 export const ThemeToggle = () => {
   const [isDark, setIsDark] = useState(false);
@@ -35,7 +34,7 @@ export const ThemeToggle = () => {
   return (
     <motion.button
       onClick={toggleTheme}
-      className="fixed top-6 right-6 z-50 p-3 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm hover:bg-primary/20 transition-all duration-300"
+      className="fixed top-8 right-5 z-50 p-3 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm hover:bg-primary/20 transition-all duration-300"
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       initial={{ opacity: 0, y: -20 }}
@@ -237,7 +236,7 @@ export const PageTransition = ({ children }: { children: React.ReactNode }) => {
 export const InteractiveElements = () => {
   return (
     <>
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
       <ScrollToTop />
       <FloatingSocials />
       <MouseFollower />

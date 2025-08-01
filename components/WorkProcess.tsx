@@ -58,7 +58,7 @@ export const WorkProcess = () => {
         <div className="w-full max-w-6xl">
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary/20 via-primary/40 to-primary/20 hidden md:block" />
+            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary/50 via-primary/70 to-primary/50 hidden md:block" />
             
             <div className="space-y-12">
               {processSteps.map((step, index) => {
@@ -75,7 +75,7 @@ export const WorkProcess = () => {
                     {/* Step number and icon */}
                     <div className="flex-shrink-0">
                       <div className="relative">
-                        <div className="w-16 h-16 rounded-full bg-white border-2 border-primary/40 flex items-center justify-center group-hover:border-primary/40 transition-colors duration-300">
+                        <div className="w-16 h-16 rounded-full bg-primary-foreground border-2 border-primary/40 flex items-center justify-center group-hover:border-primary/40 transition-colors duration-300">
                           <IconComponent className="w-8 h-8 text-primary" />
                         </div>
                         {/* <div className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-primary text-primary-foreground text-sm font-bold flex items-center justify-center">

@@ -11,10 +11,10 @@ import { WorkProcess } from "@/components/WorkProcess";
 import { InteractiveElements } from "@/components/InteractiveElements";
 export default function Home() {
   return (
-    <>
+    <div className="dark:bg-gradient-to-r dark:from-black dark:via-black dark:to-purple-400/20 transition-colors duration-300">
       <InteractiveElements />
-      <section className="size-full p-5 lg:p-20">
-        <div className="size-full flex flex-col gap-10">
+      <section className="size-full p-5 lg:p-20 ">
+        <div className="size-full flex flex-col gap-10 ">
           <div className="">
             {/* Banner */}
             <Banner />
@@ -41,6 +41,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

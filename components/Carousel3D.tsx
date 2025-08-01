@@ -140,7 +140,7 @@ export const Carousel3D = ({
                       />
                     </div>
                     <div className="p-4 flex flex-col flex-grow gap-2">
-                      <h3 className="text-lg font-bold truncate text-secondary">
+                      <h3 className="text-lg font-bold truncate text-black">
                         {item.name}
                       </h3>
 
@@ -148,13 +148,13 @@ export const Carousel3D = ({
                         {item.category.map((category, index) => (
                           <span
                             key={index}
-                            className="text-[10px] bg-primary/50 px-2 py-1 rounded-full font-medium text-secondary"
+                            className="text-[10px] bg-primary/50 px-2 py-1 rounded-full font-medium text-black"
                           >
                             {category}
                           </span>
                         ))}
                       </div>
-                      <p className="text-sm line-clamp-4 text-secondary">{item.description}</p>
+                      <p className="text-sm line-clamp-4 text-black">{item.description}</p>
                     </div>
                   </Link>
                 </motion.div>

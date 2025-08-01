@@ -33,7 +33,7 @@ const services = [
 
 export const Services = () => {
   return (
-    <section className="w-full py-16">
+    <section className="w-full py-16 ">
       <div className="flex flex-col items-center justify-center gap-12">
         <h1 className="text-4xl font-bold tracking-tighter">
           <AuroraText>WHAT I DO</AuroraText>
