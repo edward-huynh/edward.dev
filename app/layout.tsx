@@ -57,15 +57,31 @@ export const metadata: Metadata = {
     description:
       "Portfolio of Edward Huynh - Experienced Front End Developer specializing in NextJS, React, TypeScript, TailwindCSS. Building modern web applications, e-commerce platforms, and AI-powered systems.",
     siteName: "Edward Huynh Portfolio",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Edward Huynh - Frontend Developer Portfolio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Edward Huynh - Front End Developer | NextJS React TypeScript",
     description:
       "Portfolio of Edward Huynh - Experienced Front End Developer specializing in NextJS, React, TypeScript, TailwindCSS. Building modern web applications, e-commerce platforms, and AI-powered systems.",
+    images: ["/logo.png"],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/logo.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [
+      { url: "/logo.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
   },
 };
 

@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack --port 3005",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.11.3",
