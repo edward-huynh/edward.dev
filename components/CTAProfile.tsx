@@ -1,19 +1,21 @@
+import { ProjectsData } from "@/data";
+
 const stast = [
   {
     title: "Projects",
-    description: "14+",
+    description: `${ProjectsData.length}+`,
   },
   {
     title: "Done",
-    description: "14+",
+    description: "13+",
   },
   {
     title: "Experience",
-    description: "1.5+",
+    description: "2+",
   },
   {
     title: "Happy Clients",
-    description: "14+",
+    description: "13+",
   },
 ];
 export const CTAProfile = () => {

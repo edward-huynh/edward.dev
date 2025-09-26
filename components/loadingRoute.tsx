@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import { useEffect, useState } from "react";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const LoadingRoute = () => {
   const pathname = usePathname();

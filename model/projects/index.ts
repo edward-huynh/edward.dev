@@ -5,4 +5,5 @@ export interface IProject {
   description: string;
   link: string;
   github: string;
+  author?: string;
 }

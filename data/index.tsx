@@ -18,8 +18,8 @@ export const ProjectsData = [
     ],
     name: "King Coffee Ecommerce",
     description:
-      "The official website of King Coffee, showcasing premium products, Vietnam's coffee culture, and global shopping options.",
-    link: "https://kozee-v2.newweb.vn/vi",
+      "Focuses on franchise and partnership opportunities with King Coffee, offering business models and global expansion support.",
+    link: "https://distribution.kingcoffee.com ",
     github:
       "https://gitlab.com/omni.channel/client-nextjs-core/-/tree/king-ecom-dev",
   },
@@ -84,7 +84,7 @@ export const ProjectsData = [
     ],
     name: "Novadreams Tickets",
     description:
-      "Nova Dreams Ticket is a booking platform for NovaDreams experiences. It offers seamless ticket purchasing for entertainment, leisure, and cultural activities, ensuring a convenient and user-friendly interface for visitors.",
+      "Implemented an online bus ticket booking system while promoting and showcasing destinations within the Novaland ecosystem.",
     link: "https://uat-ticket.novadreams.com.vn/",
     github: "https://gitlab.com/omni.channel/novadream-fe-web/-/tree/uat",
   },
@@ -103,6 +103,23 @@ export const ProjectsData = [
     description:
       "Luxen is a premium hospitality platform showcasing luxurious accommodations and services. It highlights modern designs, high-end amenities, and unforgettable experiences tailored for discerning travelers.",
     link: "https://luxen.newweb.vn/",
+    github: "https://gitlab.com/omni.channel/cds-ubergas-fe/-/tree/luxen-dev",
+  },
+  {
+    image: "/work/epro.png",
+    category: [
+      "NuxtJS",
+      "NuxtUI",
+      "Typescript",
+      "TailwindCSS",
+      "UnoCSS",
+      "Framer Motion",
+      "Iconify",
+    ],
+    name: "Điện máy Gia Thành (EPRO)",
+    description:
+      "Created a multi-role e-commerce platform optimized for buyers, collaborators, and distributors.",
+    link: "https://giathanh.vn/",
     github: "https://gitlab.com/omni.channel/cds-ubergas-fe/-/tree/luxen-dev",
   },
   {
@@ -145,7 +162,7 @@ export const ProjectsData = [
     name: "Tiên Phong CDS",
     description:
       "CDS is a comprehensive business management platform, providing tools and solutions for digital transformation, operational efficiency, and strategic growth in various industries.",
-    link: "https://cds.newweb.vn/vi",
+    link: "http://tienphongcds.com/vi",
     github:
       "https://gitlab.com/sydaonguyen1999/new-way/-/tree/cds-company-web-dev",
   },
@@ -164,10 +181,10 @@ export const ProjectsData = [
       "Zod",
       "Recoil",
     ],
-    name: "Siêu thị PCCCC Bảo Duy",
+    name: "Siêu thị PCCC Bảo Duy",
     description:
-      "Bảo Duy is a platform offering high-quality wooden furniture crafted with modern designs and durable materials. It combines functionality with elegance, catering to both residential and commercial needs.",
-    link: "https://baoduy.newweb.vn/vi",
+      "Developed a multi-role e-commerce platform that connects buyers, collaborators, and distributors within a unified ecosystem.",
+    link: "https://sieuthipccc.com.vn/vi",
     github: "https://gitlab.com/omni.channel/web-pccc/-/tree/development",
   },
   {
@@ -188,12 +205,103 @@ export const ProjectsData = [
     name: "PCCC Hoàng Gia",
     description:
       "Hoàng Gia specializes in premium interior design and construction services, delivering luxurious and tailor-made solutions for homes, offices, and hospitality spaces with a focus on sophistication and quality.",
-    link: "https://hoanggia.newweb.vn/vi",
+    link: "https://phongchayhoanggia.vn/vi",
+    github:
+      "https://gitlab.com/sydaonguyen1999/kozee-ecommerce/-/tree/hoang-gia-dev",
+  },
+  {
+    image: "/work/dashJK.png",
+    category: [
+      "NextJS",
+      "ShadcnUI",
+      "SWR",
+      "Typescript",
+      "TailwindCSS",
+      "Framer Motion",
+      "Iconify",
+      "SwiperJS",
+      "React Hook Form",
+      "Zod",
+      "Recoil",
+    ],
+    name: "DashJK",
+    description:
+      "Hoàng Gia specializes in premium interior design and construction services, delivering luxurious and tailor-made solutions for homes, offices, and hospitality spaces with a focus on sophistication and quality.",
+    link: "https://dash-jk.newweb.vn/vi",
+    github:
+      "https://gitlab.com/sydaonguyen1999/kozee-ecommerce/-/tree/hoang-gia-dev",
+  },
+  {
+    image: "/work/food-map.png",
+    category: [
+      "NextJS",
+      "HeroUI",
+      "SWR",
+      "GraphQL",
+      "Typescript",
+      "TailwindCSS",
+      "Framer Motion",
+      "Iconify",
+      "SwiperJS",
+      "React Hook Form",
+      "Zod",
+      "Recoil",
+    ],
+    name: "Việt Nam FOODMAP",
+    description:
+      "Vietnam Foodmap is a community platform where users share reviews, photos, and experiences of dishes from restaurants and regional specialties across Vietnam. It helps you discover authentic cuisine and quality dining spots nationwide.",
+    link: "https://vietnamfoodmap.com.vn/",
+    github:
+      "https://gitlab.com/sydaonguyen1999/kozee-ecommerce/-/tree/hoang-gia-dev",
+  },
+  {
+    image: "/work/ai-system.png",
+    category: [
+      "NextJS",
+      "ShadcnUI",
+      "SWR",
+      "Typescript",
+      "TailwindCSS",
+      "Framer Motion",
+      "Iconify",
+      "SwiperJS",
+      "React Hook Form",
+      "Zod",
+      "Recoil",
+    ],
+    name: "AI System",
+    description:
+      "Built an AI-powered chat system specializing in semiconductors, enabling customized knowledge management and employee training.",
+    link: "https://aimaster.ifss.edu.vn/",
+    github:
+      "https://gitlab.com/sydaonguyen1999/kozee-ecommerce/-/tree/hoang-gia-dev",
+  },
+  {
+    image: "/work/ai-master.png",
+    author: "Lavenes Studio",
+    category: [
+      "NextJS",
+      "ShadcnUI",
+      "SWR",
+      "Typescript",
+      "TailwindCSS",
+      "Framer Motion",
+      "Iconify",
+      "SwiperJS",
+      "React Hook Form",
+      "Zod",
+      "Recoil",
+    ],
+    name: "AI Master",
+    description:
+      "Built an AI-powered chat system specializing in semiconductors, enabling customized knowledge management and employee training.",
+    link: "https://aimaster.ifss.edu.vn/",
     github:
       "https://gitlab.com/sydaonguyen1999/kozee-ecommerce/-/tree/hoang-gia-dev",
   },
   {
     image: "/work/jemmia.png",
+    author: "Lavenes Studio",
     category: ["HTML", "CSS", "Javascript", "Swiper", "Bootstrap", "PWA"],
     name: "Jemmia Diamon PWA",
     description:
